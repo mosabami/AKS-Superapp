@@ -2,7 +2,7 @@ name: deployWorker
 "on":
     push:
         branches:
-            - main
+            - update-worker
     workflow_dispatch: {}
 env:
     ACR_RESOURCE_GROUP: superapp2
